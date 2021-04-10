@@ -1,9 +1,9 @@
 /*	Author: mbaut030
  *  Partner(s) Name: Maverick
  *	Lab Section:
- *	Assignment: Lab #  Exercise #
+ *	Assignment: Lab 3  Exercise 1
  *	Exercise Description: [optional - include for your own benefit]
- *
+i *
  *	I acknowledge all content contained herein, excluding template or example
  *	code, is my own original work.
  */
@@ -13,20 +13,20 @@
 #endif
 
 int main(void) {
-    /* Insert DDR and PORT initializations /
- *         DDRA = 0x00; PORTA = 0xFF;
- *                 DDRB = 0x00; PORTB = 0xFF;
- *                         DDRC = 0xFF; PORTC = 0x00;
- *                             / Insert your solution below */
+    /* Insert DDR and PORT initializations */
+        DDRA = 0x00; PORTA = 0xFF;
+        DDRB = 0x00; PORTB = 0xFF;
+        DDRC = 0xFF; PORTC = 0x00;
+        /* Insert your solution below */
         unsigned char tmpA = 0x00;
         unsigned char tmpB = 0x00;
         unsigned char tmpC = 0x00;
-	unsigned char i;
+        unsigned char i;
     while (1) {
         tmpA = PINA;
         tmpB = PINB;
         tmpC = 0x00;
-	
+
         for (i = 0; i < 8; i++) {
                 if ((tmpA >> i) & 0x01) {
                         tmpC += 1;
