@@ -1,7 +1,7 @@
 /*	Author: mbaut030
  *  Partner(s) Name: Maverick
  *	Lab Section:
- *	Assignment: Lab 3  Exercise 3
+ *	Assignment: Lab 3  Exercise 4
  *	Exercise Description: [optional - include for your own benefit]
 i *
  *	I acknowledge all content contained herein, excluding template or example
